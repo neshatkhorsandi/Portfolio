@@ -1,3 +1,42 @@
-h2 {
-    text-align: center;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* customer variables/props */
+
+:root {
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-secondary: 'DM Mono', monospace;
+    --fw-regular: 300;
+    --fw-bold: 900;
+
+    --col-light: #997f64;
+    --col-dark: #3D2B29;
+    --col-accent: #97341d;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* general styling */
+body {
+    background: var(--col-light);
+    color: var(--col-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
 }

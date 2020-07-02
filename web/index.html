@@ -1,32 +1,33 @@
 <html>
 <head>
+    <!--    <style>-->
+    <!--        h2 {-->
+    <!--            text-align: center;-->
+    <!--        }-->
+    <!--        -->
+    <!--        .card {-->
+    <!--            margin: 0 auto;-->
+    <!--            float: none;-->
+    <!--            margin-bottom: 10px;-->
+    <!--        }-->
+    <!--        -->
+    <!--        /*XS Screens*/-->
+    <!--        @media screen and (max-width: 769px) {-->
+    <!--            .developer {-->
+    <!--                font-size: 3.5vw !important;-->
+    <!--            }-->
+    <!--        -->
+    <!--            h2 {-->
+    <!--                font-size: 6vw !important;-->
+    <!--            }-->
+    <!--        }-->
 
-    <!--    <link rel="stylesheet" href="styles/index.css">-->
+    <!--    </style>-->
 
-    <style>
-        h2 {
-            text-align: center;
-        }
-
-        .card {
-            margin: 0 auto;
-            float: none;
-            margin-bottom: 10px;
-        }
-
-        /*XS Screens*/
-        @media screen and (max-width: 769px) {
-            .developer {
-                font-size: 3.5vw !important;
-            }
-
-            h2 {
-                font-size: 6vw !important;
-            }
-        }
-
-    </style>
     <title>neshat khorsandi</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Roboto&display=swap" rel="stylesheet">
+
     <!--    Bootstrap Stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
@@ -42,7 +43,9 @@
     <!--font awesome scripts-->
     <script src="https://kit.fontawesome.com/1aab348779.js" crossorigin="anonymous"></script>
 
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles/index.css">
+
+    <!--    <script src="index.js"></script>-->
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -58,102 +61,177 @@
                 <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">link</a>
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About Me</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<div class="jumbotron">
-    <h1 class="display-4">Hi,</h1>
-    <h1 class="display-3">I'm Neshat Khorsandi.</h1>
-    <p class="developer">Developer</p>
-    <a href="#about-me">About Me</a>
-    <a href="#my-services">What I Do</a>
-    <hr class="my-4">
-</div>
+<!--<div class="jumbotron">-->
+<!--    <h1 class="display-4">Hi,</h1>-->
+<!--    <h1 class="display-3">I'm Neshat Khorsandi.</h1>-->
+<!--    <p class="developer">Developer</p>-->
+<!--    <a href="#about-me">About Me</a>-->
+<!--    <a href="#my-services">What I Do</a>-->
+<!--    <hr class="my-4">-->
+<!--</div>-->
 
-<div class="container theContainer">
-    <h2><a name="about-me">About Me</a></h2>
-    <p>
-        My name is Neshat. My friends and people close to me call me "Nesha" (silent T). I currently live in Calgary and
-        just graduated from Southern Alberta Institute of Technology (SAIT). I took the software development major of
-        the IT program. I enjoy doing front-end development the most but I have experience in full stack development.
-        Visually aesthetic applications is what the user sees first which is why I like being the person behind that.
-    </p>
-    <a href="data/Neshat%20Khorsandi%20Resume.pdf">Download Resume</a>
-    <button type="button" class="btn btn-primary">Download Resume</button>
-    <br><br>
 
-    <h2><a name="my-services">What I Do</a></h2>
-    <div class="theCards">
-        <div class="card-deck">
-            <div class="row">
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card my-3" style="width: 15rem;">
-                        <div class="card-header">
-                            Web Development
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section class="main-header">
+    <h1 class="section-title the-main-title">Hi, I am <strong>Neshat Khorsandi</strong></h1>
+    <p class="section-subtitle main-subtitle">front end dev</p>
+</section>
 
-            <div class="row">
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card my-3" style="width: 15rem;">
-                        <div class="card-header">
-                            Full Stack Development
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- my services -->
+<section class="my-services" id="services">
+    <h2 class="section-title services-title">What I do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum</p>
+        </div>  <!--   end of service  -->
 
-            <div class="row">
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card my-3" style="width: 15rem;">
-                        <div class="card-header">
-                            Front-End Development
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="service">
+            <h3>Front-End Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum</p>
+        </div>  <!--   end of service  -->
 
-            <div class="row">
-                <div class="col-lg-4 col-sm-1">
-                    <div class="card my-3" style="width: 15rem;">
-                        <div class="card-header">
-                            Responsive Design
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="service">
+            <h3>Front-End Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum</p>
+        </div>  <!--   end of service  -->
+
+    </div> <!-- end of all services -->
+</section>
+
+<!-- about me -->
+<section class="about-me" id="aboutme">
+    <h2 class="section-title aboutMe-title">About Me</h2>
+    <p class="section-subtitle aboutMe-subtitle"></p>
+
+    <div class="aboutme-body">
+        <p></p>
+        <p></p>
     </div>
+</section>
 
-</div>
+<!-- my work -->
+<section class="my-work" id="my-work">
+    <h2 class="section-title myWork-title">My Work</h2>
+    <p class="section-subtitle myWork-subtitle"></p>
+</section>
+
+<footer>
+    <a href="mailto:neshat.khorsandi@hotmail.com" class="footer-link">
+        neshat.khorsandi@hotmail.com
+    </a>
+</footer>
+
+
+<!--<div class="container theContainer">-->
+<!--    <h2><a name="about-me">About Me</a></h2>-->
+<!--    <p>-->
+<!--        My name is Neshat. My friends and people close to me call me "Nesha" (silent T). I currently live in Calgary and-->
+<!--        just graduated from Southern Alberta Institute of Technology (SAIT). I took the software development major of-->
+<!--        the IT program. I enjoy doing front-end development the most but I have experience in full stack development.-->
+<!--        Visually aesthetic applications is what the user sees first which is why I like being the person behind that.-->
+<!--    </p>-->
+<!--    <a href="data/Neshat%20Khorsandi%20Resume.pdf" class="btn btn-primary">Download Resume</a>-->
+<!--    <br><br>-->
+
+<!--    <h2><a name="my-services">What I Do</a></h2>-->
+<!--    <div class="theCards">-->
+<!--        <div class="card-deck">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-sm-1">-->
+<!--                    <div class="card my-3" style="width: 15rem;">-->
+<!--                        <div class="card-header">-->
+<!--                            Web Development-->
+<!--                        </div>-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Special title treatment</h5>-->
+<!--                            <p class="card-text">With supporting text below as a natural lead-in to additional-->
+<!--                                content.</p>-->
+<!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-sm-1">-->
+<!--                    <div class="card my-3" style="width: 15rem;">-->
+<!--                        <div class="card-header">-->
+<!--                            Full Stack Development-->
+<!--                        </div>-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Special title treatment</h5>-->
+<!--                            <p class="card-text">With supporting text below as a natural lead-in to additional-->
+<!--                                content.</p>-->
+<!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-sm-1">-->
+<!--                    <div class="card my-3" style="width: 15rem;">-->
+<!--                        <div class="card-header">-->
+<!--                            Front-End Development-->
+<!--                        </div>-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Special title treatment</h5>-->
+<!--                            <p class="card-text">With supporting text below as a natural lead-in to additional-->
+<!--                                content.</p>-->
+<!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-sm-1">-->
+<!--                    <div class="card my-3" style="width: 15rem;">-->
+<!--                        <div class="card-header">-->
+<!--                            Responsive Design-->
+<!--                        </div>-->
+<!--                        <div class="card-body">-->
+<!--                            <h5 class="card-title">Special title treatment</h5>-->
+<!--                            <p class="card-text">With supporting text below as a natural lead-in to additional-->
+<!--                                content.</p>-->
+<!--                            <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</div>-->
 </body>
 </html>
